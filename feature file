@@ -1,0 +1,9 @@
+Feature: end to end testing of swag lab
+
+  Scenario: testing all features
+    Given I want to launch the webpage
+    And Login with input credentials
+    When I want to add items to cart
+    And I want to remove from cart
+    Then I validate and checkout
+    And Logout from swaglab
